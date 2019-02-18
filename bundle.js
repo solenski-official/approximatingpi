@@ -8446,10 +8446,17 @@ function initialize() {
       }
     ],
     {
-      title: "Error and PI value plots",
+      margin: {
+        t: 30, //top margin
+        l: 20, //left margin
+        r: 20, //right margin
+        b: 20 //bottom margin
+        },
+      showlegend: false,
       plot_bgcolor: "#f4f5f6",
       paper_bgcolor: "#f4f5f6"
-    }
+    },
+    {responsive: true}
   );
   tooltip();
 }
