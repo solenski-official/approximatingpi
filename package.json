@@ -1,12 +1,11 @@
 {
-  "name": "rotating",
+  "name": "pi-approx",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "calculating π using Monte Carlo Method",
   "scripts": {
     "watch": "watchify src/main.js -o ./bundle.js -v"
   },
-  "author": "",
+  "author": "Sebastian Oleński",
   "license": "ISC",
   "dependencies": {
     "animejs": "^3.0.1",
