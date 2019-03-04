@@ -4,7 +4,8 @@
   "description": "calculating π using Monte Carlo Method",
   "scripts": {
     "build": "browserify src/main.js -o static/bundle.js",
-    "watch": "watchify src/main.js -o static/bundle.js -v"
+    "watch": "watchify src/main.js -o static/bundle.js -v",
+    "start": "live-server static"
   },
   "author": "Sebastian Oleński",
   "license": "ISC",
